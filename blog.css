@@ -1,0 +1,139 @@
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+
+nav {
+    margin: 5px;
+    
+  
+}
+li a {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 50%;
+    color: black;
+}
+
+li a:active {
+    color: blue;
+}
+
+li a:hover {
+    color: coral;
+}
+
+/* move the canva logo to the right*/
+nav ul li:first-child {
+    position: relative;
+    right: 50%;
+}
+
+nav ul li::first-letter {
+    background-color: blue;
+    font-size: large;
+    font: bold;
+}
+
+#canva::first-letter {
+    background-color: #00f;
+    font-size: larger;
+    color: #fff;
+    border: 1px solid;
+    padding: 1px;
+    padding: 3px;
+
+}
+
+.call {
+    color: #fff;
+    background-color: blue;
+
+}
+/* STYLE FOR upper DIV SECTION*/
+
+div.container {
+    width: 90%;
+    margin-left: 20px;
+}
+
+div.upper {
+    height: 100px;
+    width: 33.00%;
+    float: left;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.container {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* style section for lower div*/
+div.lower{
+    display: grid;
+    background-image: url(business.jpeg);
+    color: aliceblue;
+    width: 100%;
+    height: 300px;
+    background-repeat: none;
+    float: left;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    padding: 4px;
+    font-size: 20px;
+    line-height: 35px;
+ }
+
+
+/* style for div last*/
+
+div.final {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    float: left;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 2px;
+    padding-top: 40px;
+}
+
+footer {
+    background-color: blue;
+}
+
+
+
+.take {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 2fr;
+    float: left;
+    column-gap: 0px;
+    width: 100%;
+    padding-top: 8px;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.tl{
+    background-color: beige;
+    padding: 3px;
+    color: #000;
+    width: 43%;
+    height: 2.5fr;
+    text-align: center;
+
+}
